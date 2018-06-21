@@ -1,0 +1,19 @@
+<div id="app">
+    <input type="text" v-model="message.a" >
+    <div></div>
+    <div>hshshhs</div>
+    <div>{{message.b}}</div>
+    <div>{{message.a}}</div>
+</div>
+<script src="my-vue.js"></script>
+<script>
+    let vm = new Vue({
+        el:'#app',
+        data:{
+            message:{
+                a:'hello world',
+                b:'3433sjjs'
+            }
+        }
+    })
+</script>
